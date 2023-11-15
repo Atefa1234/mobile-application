@@ -220,6 +220,9 @@ nav ul li:hover .dropdown-manu {
     font-family: var(--open-sans);
     font-weight: 700;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 .bg {
     height: 250px;
@@ -315,7 +318,14 @@ nav ul li:hover .dropdown-manu {
     filter: brightness(1.3);
     cursor: pointer;
 }
-
+#brillo1 :hover {
+    background-color: white;
+    color: var(--pink);
+}
+#brillo2 :hover {
+    background-color: white;
+    color: var(--pink);
+}
 @media (min-width:600px){
     nav {
         max-width: 1200px;
