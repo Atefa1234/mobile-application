@@ -145,7 +145,8 @@ nav ul li:hover .dropdown-manu {
     }
 .final-div {
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-evenly;
 }
 .final-div [class*="fa-"]{
     font-size: 3em;
@@ -209,20 +210,25 @@ nav ul li:hover .dropdown-manu {
 }
 .wrap-in {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    /*
     text-align: center;
+    */
 }
 .text {
     margin-top: 10px;
+    /*
     float: left;
-    text-align: right;
+    text-align: right;*/
     margin-left: 0;
     font-family: var(--open-sans);
     font-weight: 700;
     margin-bottom: 50px;
+    /*
     display: flex;
     flex-direction: column;
     text-align: center;
+    */
 }
 .bg {
     height: 250px;
@@ -325,6 +331,12 @@ nav ul li:hover .dropdown-manu {
 #brillo2 :hover {
     background-color: white;
     color: var(--pink);
+}
+.new {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 @media (min-width:600px){
     nav {
